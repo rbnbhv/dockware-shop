@@ -29,11 +29,7 @@
 /files/*
 /public/bundles/
 /var/
-/bin
-/config
-/src
-/custom/plugins
-/public
+
 
 .phpunit
 /docker-compose.override.yml
