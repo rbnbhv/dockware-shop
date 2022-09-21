@@ -1,0 +1,19 @@
+{
+  "name": "swag/redirect-product-unavailable",
+  "description": "Redirect when Product is unavailable",
+  "type": "shopware-platform-plugin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "RedirectProductUnavailable\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "RedirectProductUnavailable\\RedirectProductUnavailable",
+    "label": {
+      "de-DE": "Skeleton plugin",
+      "en-GB": "Skeleton plugin"
+    }
+  }
+}
