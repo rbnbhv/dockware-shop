@@ -57,3 +57,4 @@ bin/console plugin:refresh
 - make sure that your plugin is now noticed inside the composer.json and composer.lock
 - now you can install the plugin with ```bin/console plugin:install <PluginName> --activate```
 
+## xDebug
