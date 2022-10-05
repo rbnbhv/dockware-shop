@@ -3,7 +3,7 @@
   "description": "Redirect when Product is unavailable",
   "type": "shopware-platform-plugin",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "proprietary",
   "autoload": {
     "psr-4": {
       "RedirectProductUnavailable\\": "src/"
