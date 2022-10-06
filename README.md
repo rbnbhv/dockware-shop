@@ -11,7 +11,7 @@
 - If you want to change the localhost URL
   - add entry in /etc/hosts
   - ```127.0.0.1 newURL.de``` and add the new URL to .env
-- On a new terminal (locally) copy the structure from the container with ```docker cp dockware-shop:/var/www/html .```
+- On a new terminal (locally) copy the structure from the container with ```docker cp dockware-shop:/var/www/html/. .```
 - Connect the database (MySQL)
 
 ### Watcher commands
