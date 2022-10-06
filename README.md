@@ -7,11 +7,11 @@
   - in PhpStorm under Tools --> deployment 
   - set SSH [default credentials](https://docs.dockware.io/use-dockware/default-credentials)
 - set up .env inside the container if you want to change the URL
-- Log into docker-container with ```docker exec -it dockware-shop bash```
+- Log into docker-container with ```docker exec -it dockware-shop bash``` to check if it works
 - If you want to change the localhost URL
   - add entry in /etc/hosts
   - ```127.0.0.1 newURL.de``` and add the new URL to .env
-- Copy the structure from the container with ```docker cp dockware-shop:/var/www/html .```
+- On a new terminal (locally) copy the structure from the container with ```docker cp dockware-shop:/var/www/html .```
 - Connect the database (MySQL)
 
 ### Watcher commands
