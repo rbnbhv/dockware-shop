@@ -1,0 +1,10 @@
+{% block sw_product_detail_seo_urls %}
+    {% parent %}
+    <sw-card :title="$tc('Redirectproduct')">
+        <sw-field
+                type="checkbox"
+                :label="$tc('RandomTitle')"
+        >
+        </sw-field>
+    </sw-card>
+{% endblock %}
