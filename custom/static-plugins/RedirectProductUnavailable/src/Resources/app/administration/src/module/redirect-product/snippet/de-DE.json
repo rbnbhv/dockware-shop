@@ -6,7 +6,7 @@
     },
     "Redirectproduct": {
         "general": {
-            "descriptionTextModule": "Redirect wenn Produkt nicht verfügbar oder inaktiv"
+            "descriptionTextModule": "Redirect zu einer anderen Seite, wenn das Produkt nicht verfügbar oder inaktiv ist"
         }
     }
 }
