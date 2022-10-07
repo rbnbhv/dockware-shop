@@ -58,3 +58,22 @@ bin/console plugin:refresh
 - now you can install the plugin with ```bin/console plugin:install <PluginName> --activate```
 
 ## xDebug
+
+- In dockware xDebug is enabled automatically in the docker-compose Environment with ```- XDEBUG_ENABLED=1```
+- But you have to set it up your project
+  - Go to Preferences -> PHP
+  - Register a CLI Interpreter
+  - Server: Docker,  Configuration File: docker-compose.yml, Service: Shopware
+  - Set Path Mappings
+  - Set the Server Settings --> PHP --> Servers (remote to /var/www/html)
+  - Start xDebug with ```cd /var/www && make xdebug-off```
+- Now click on Run in the topside and Edit Configuration
+  - Add a new configuration
+    - Set the interpreter to shopware
+    - Set the file ```(bin console)```
+    - Set the bin/console arguments like: ```messenger:consume -vv``` for more informations or whatever you want
+    - Enable on top right the "start listening for PHP Debug Connections"
+    - Start the red Debugger
+
+
+#### For more informations check the [xDebug-Documentation](https://www.jetbrains.com/help/phpstorm/2022.2/configuring-remote-interpreters.html#additional-configuration-options)
