@@ -1,0 +1,12 @@
+{
+    "RedirectProduct": {
+        "general": {
+            "title": "RedirectProduct"
+        }
+    },
+    "Redirectproduct": {
+        "general": {
+            "descriptionTextModule": "redirecting to another site if a product is not available or inactive"
+        }
+    }
+}
