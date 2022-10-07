@@ -1,7 +1,6 @@
 import deDE from './snippet/de-DE.json';
 import enGB from './snippet/en-GB.json';
 
-import './extension/sw-users-permissions-user-detail';
 import './extension/sw-product-detail-seo';
 
 Shopware.Module.register('redirectProduct', {
