@@ -1,0 +1,20 @@
+{% block redirect_product_category %}
+    <div class="redirect-product-category">
+        {% block redirect_product_category_title %}
+            <sw-inherit-wrapper
+                    v-model="RedirectProduct"
+                    :label="$tc('EtaTitle')"
+            >
+                <template #content="props">
+                    <sw-field
+                            type="text"
+                            :placeholder="$tc('placeholderText')"
+                            :error="productMetaTitleError"
+                            :value="currentValue"
+                            @change="updateCurrentValue"
+                    />
+                </template>
+            </sw-inherit-wrapper>
+        {% endblock %}
+    </div>
+{% endblock %}
