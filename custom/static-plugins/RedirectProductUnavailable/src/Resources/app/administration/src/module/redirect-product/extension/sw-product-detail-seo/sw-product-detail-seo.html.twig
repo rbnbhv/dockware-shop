@@ -1,10 +1,14 @@
 {% block sw_product_detail_seo_urls %}
     {% parent %}
-    <sw-card :title="$tc('Redirectproduct')">
-        <sw-field
-                type="checkbox"
-                :label="$tc('RandomTitle')"
-        >
-        </sw-field>
-    </sw-card>
+    {% block sw_product_detail_seo_product_redirect %}
+        <sw-card
+                position-identifier="sw-product-detail-seo"
+                :title="$tc('Activate the product')" >
+            {% block sw_product_detail_seo_product_redirect_new %}
+                <sw-switch-field :label="$tc('Activate redirect product')" :isLoading="isLoading">
+                    <redirect-product-category/>
+                </sw-switch-field>
+            {% endblock %}
+        </sw-card>
+    {% endblock %}
 {% endblock %}
