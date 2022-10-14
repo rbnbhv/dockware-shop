@@ -1,0 +1,30 @@
+{
+    "existingCustomer": {
+        "salutation": "Frau",
+        "customerNumber": "CY-1000",
+        "email": "testgast@example.de",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "password": "superkennwort1234",
+        "birthdayDay": "01",
+        "birthdayMonth": "1",
+        "birthdayYear": "1980",
+        "street": "Am Nußbaum 10",
+        "zipcode": "10178",
+        "city": "Berlin"
+},
+    "newCustomer": {
+        "salutation": "Frau",
+        "customerNumber": "CY-1000",
+        "email": "testgast@example.de",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "password": "superkennwort1234",
+        "birthdayDay": "10",
+        "birthdayMonth": "8",
+        "birthdayYear": "1980",
+        "street": "Am Nußbaum 10",
+        "zipcode": "10178",
+        "city": "Berlin"
+    }
+}
