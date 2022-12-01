@@ -11,8 +11,8 @@ services:
       - "3306:3306"
       - "22:22"
       - "8888:8888"
-      - "9999:9999"
       - "9998:9998"
+      - "9999:9999"
     volumes:
       - "db_volume:/var/lib/mysql"
       - "shop_volume:/var/www/html"
